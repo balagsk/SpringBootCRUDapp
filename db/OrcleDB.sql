@@ -1,0 +1,33 @@
+CREATE TABLE USER_AUDIT (
+auditId number,
+appid NVARCHAR2(50),
+groupid NVARCHAR2(50),
+userId NVARCHAR2(50),
+country CHAR(2CHAR)
+);
+
+select * from user_audit;
+
+CREATE SEQUENCE USER_SEQ
+  MINVALUE 1
+  MAXVALUE 999999999999999999999999999
+  START WITH 20170001
+  INCREMENT BY 1
+  CACHE 20;
+  
+--DROP  SEQUENCE USER_SEQ;
+--insert into user_audit(AUDITID,APPID,GROUPID,USERID,COUNTRY) values (USER_SEQ.nextval,'IDC','SCBGP','USER0006','IN');
+
+
+CREATE TEMPORARY TABLESPACE;
+
+
+CREATE TABLE appusers (
+Id number,
+firstname NVARCHAR2(50),
+lastname NVARCHAR2(50)
+);
+
+SELECT * FROM appuser;
+
+

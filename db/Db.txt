@@ -1,0 +1,5 @@
+Oracle Enterprise Manager Database Express URL: https://localhost:1521/ORCL
+admin:  sys
+Password:   scb123
+
+

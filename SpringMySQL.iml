@@ -76,7 +76,7 @@
     <orderEntry type="module-library">
       <library name="Maven: com.oracle:ojdbc7:1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../SpringBootMySQL-CRUD/lib/ojdbc7.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../SpringBootMySQL-CRUD/lib/ojdbc7.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

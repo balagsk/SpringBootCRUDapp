@@ -1,0 +1,2 @@
+-Maven dependencies:
+mvn install:install-file -Dfile=E:\workspace\SBApp\lib\ojdbc7.jar -Dgroupid=com.oracle -DartifactId=ojdbc7 -Dversion=7.0 -Dpackaging=jar
