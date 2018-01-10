@@ -14,6 +14,12 @@ Spring boot 1.5.4,
 
 Oracle 12c,
 
+Boostrap,
+
+Jquery,
+
+Thymeleaf,
+
 maven 3.3,
 
 Tomcat
