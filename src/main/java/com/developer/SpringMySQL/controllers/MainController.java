@@ -25,6 +25,13 @@ public class MainController {
         return mv;
     }
 
+    @RequestMapping("/layout")
+    public ModelAndView getLandingPage(){
+        ModelAndView mv = new ModelAndView("layout");
+        //mv.addObject("userlist", userRepo.findAll());
+        return mv;
+    }
+
     @RequestMapping("/")
     public ModelAndView doHome(){
         ModelAndView mv = new ModelAndView("index");

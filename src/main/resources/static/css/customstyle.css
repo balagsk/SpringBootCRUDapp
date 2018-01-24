@@ -5,3 +5,14 @@ html,body {
     background: #fff;
     overflow: hidden;
 }
+
+.logo-content-big-2{
+    position: absolute;
+    height: 34px;
+    width: 190px;
+    left: 40px;
+    top: 25%;
+    margin-top: -10px;
+    color: white;
+}
+
