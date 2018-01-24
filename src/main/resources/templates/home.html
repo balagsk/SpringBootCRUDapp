@@ -10,7 +10,7 @@
     </style>
 
 
-    <meta charset="UTF-8"/>
+<meta charset="UTF-8"/>
 <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' /><![endif]-->
 <title> Data tables </title>
 <meta name="description" content=""/>
@@ -580,7 +580,7 @@
             <i class="glyph-icon icon-angle-left"></i>
         </a>
     </div>
-    <div id="header-nav-left">
+  <!--  <div id="header-nav-left">
         <div class="user-account-btn dropdown">
             <a href="#" title="My Account" class="user-profile clearfix" data-toggle="dropdown">
                 <img width="28" th:src="@{/monarch/assets/image-resources/gravatar.jpg} " alt="Profile image}"/>
@@ -636,7 +636,8 @@
                 </div>
             </div>
         </div>
-    </div><!-- #header-nav-left -->
+    </div>--><!-- #header-nav-left -->
+
 
     <div id="header-nav-right">
         <a href="#" class="hdr-btn popover-button" title="Search" data-placement="bottom" data-id="#popover-search">
@@ -966,7 +967,8 @@
             <i class="glyph-icon icon-linecons-lock"></i>
         </a>
 
-    </div><!-- #header-nav-right -->
+    </div>&lt;!&ndash; #header-nav-right &ndash;&gt;
+
 
 </div>
 
@@ -984,7 +986,8 @@
     </li>
     <li class="divider"></li>
     <li class="no-menu">
-        <a href="https://agileui.com/demo/monarch/demo/frontend-template/index.html" title="Frontend template">
+        <!--<a href="https://agileui.com/demo/monarch/demo/frontend-template/index.html" title="Frontend template">-->
+        <a href="../../resources/templates/login.html" title="Frontend template">
             <i class="glyph-icon icon-linecons-beaker"></i>
             <span>Frontend template</span>
             <!--<span class="bs-label label-danger">
@@ -993,66 +996,6 @@
         </a>
     </li>
     <li class="header"><span>Components</span></li>
-   <!-- <li>
-        <a href="#" title="Elements">
-            <i class="glyph-icon icon-linecons-diamond"></i>
-            <span>Elements</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="buttons.html" title="Buttons"><span>Buttons</span></a></li>
-                <li><a href="labels-badges.html" title="Labels &amp; Badges"><span>Labels &amp; Badges</span></a></li>
-                <li><a href="content-boxes.html" title="Content boxes"><span>Content boxes</span></a></li>
-                <li><a href="icons.html" title="Icons"><span>Icons</span></a></li>
-                <li><a href="nav-menus.html" title="Navigation menus"><span>Navigation menus</span></a></li>
-                <li><a href="response-messages.html" title="Response messages"><span>Response messages</span></a></li>
-                <li><a href="images.html" title="Images"><span>Images</span></a></li>
-            </ul>
-
-        </div>&lt;!&ndash; .sidebar-submenu &ndash;&gt;
-    </li>
-    <li>
-        <a href="#" title="Dashboard boxes">
-            <i class="glyph-icon icon-linecons-lightbulb"></i>
-            <span>Dashboard boxes</span>
-            <span class="bs-label label-primary">Hot</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="chart-boxes.html" title="Chart boxes"><span>Chart boxes</span></a></li>
-                <li><a href="tile-boxes.html" title="Tile boxes"><span>Tile boxes</span></a></li>
-                <li><a href="social-boxes.html" title="Social boxes"><span>Social boxes</span></a></li>
-                <li><a href="panel-boxes.html" title="Panel boxes"><span>Panel boxes</span></a></li>
-            </ul>
-
-        </div>&lt;!&ndash; .sidebar-submenu &ndash;&gt;
-    </li>
-    <li>
-        <a href="#" title="Widgets">
-            <i class="glyph-icon icon-linecons-wallet"></i>
-            <span>Widgets</span>
-        </a>
-        <div class="sidebar-submenu">
-
-            <ul>
-                <li><a href="tabs.html" title="Responsive tabs"><span>Responsive tabs</span></a></li>
-                <li><a href="collapsable.html" title="Collapsables"><span>Collapsable accordions</span></a></li>
-                <li><a href="bs-carousel.html" title="Bootstrap Carousel"><span>Bootstrap carousel</span></a></li>
-                <li><a href="calendar.html" title="Calendar"><span>Calendar</span></a></li>
-                <li><a href="scrollbars.html" title="Custom scrollbars"><span>Custom scrollbars</span></a></li>
-                <li><a href="modals.html" title="Modals"><span>Modals</span></a></li>
-                <li><a href="notifications.html" title="Notifications"><span>Notifications</span></a></li>
-                <li><a href="lazyload.html" title="Lazyload"><span>Lazyload</span></a></li>
-                <li><a href="loading-feedback.html" title="Loading feedback"><span>Loading feedback</span></a></li>
-                <li><a href="popovers-tooltips.html" title="Popovers &amp; Tooltips"><span>Popovers & Tooltips</span></a></li>
-                <li><a href="progress-bars.html" title="Progress bars"><span>Progress bars</span></a></li>
-                <li><a href="sortable-elements.html" title="Sortable elements"><span>Sortable elements</span></a></li>
-            </ul>
-
-        </div>&lt;!&ndash; .sidebar-submenu &ndash;&gt;
-    </li>-->
     <li>
         <a href="#" title="Forms UI">
             <i class="glyph-icon icon-linecons-eye"></i>
@@ -1424,9 +1367,12 @@
     </div>
 <div class="example-box-wrapper">
 
-    <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="datatable-fixedcolumns">
+    <table cellpadding="0" cellspacing="0" border="0" class="table table-striped table-bordered" id="datatable-fixedcolumns" style="font-size: x-small">
         <thead>
         <tr>
+            <th>appid</th>
+            <th>groupid</th>
+            <th>userid</th>
             <th>Firstname</th>
             <th>lastname</th>
             <th>mobile</th>
@@ -1445,20 +1391,23 @@
         </thead>
         <tbody>
         <tr th:each="user : ${userlist}">
+            <td th:text="${user.appid}"></td>
+            <td th:text="${user.groupid}"></td>
+            <td th:text="${user.userid}"></td>
             <td th:text="${user.firstname}"></td>
             <td th:text="${user.lastname}"></td>
-            <td th:text="${user.firstname}"></td>
-            <td th:text="${user.lastname}"></td>
-            <td th:text="${user.firstname}"></td>
-            <td th:text="${user.lastname}"></td>
-            <td th:text="${user.firstname}"></td>
-            <td th:text="${user.lastname}"></td>
-            <td th:text="${user.firstname}"></td>
-            <td th:text="${user.lastname}"></td>
-            <td th:text="${user.firstname}"></td>
-            <td th:text="${user.lastname}"></td>
-            <td th:text="${user.firstname}"></td>
-            <td th:text="${user.lastname}"></td>
+            <td th:text="${user.mobile}"></td>
+            <td th:text="${user.email}"></td>
+            <td th:text="${user.address}"></td>
+            <td th:text="${user.dob}"></td>
+            <td th:text="${user.gender}"></td>
+            <td th:text="${user.maritalstatus}"></td>
+            <td th:text="${user.lastlogin}"></td>
+            <td th:text="${user.password}"></td>
+            <td th:text="${user.status}"></td>
+            <td th:text="${user.passwdchangedate}"></td>
+            <td th:text="${user.modifieddate}"></td>
+            <td th:text="${user.createddate}"></td>
         </tr>
         </tbody>
 

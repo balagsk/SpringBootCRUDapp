@@ -14,7 +14,7 @@ public class AppUsers {
 
 
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.AUTO)
    // @SequenceGenerator(name="UserSeq",sequenceName="USER_SEQ.nextval",allocationSize=1)
     public int id;
     @Column(name = "firstname")

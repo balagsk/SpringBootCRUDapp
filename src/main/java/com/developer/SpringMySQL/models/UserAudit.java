@@ -4,8 +4,8 @@ import javax.annotation.Generated;
 import javax.persistence.*;
 
 @Entity
-@Table(name="useraudit")
-public class useraudit {
+@Table(name="UserAudit")
+public class UserAudit {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

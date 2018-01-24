@@ -11,12 +11,19 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 /**
- * Created by Pukar on 6/25/2017.
+ * Created by Bala on 6/25/2017.
  */
 @Controller
 @RequestMapping("/api")
 public class MainController {
 
+
+    @RequestMapping("/login")
+    public ModelAndView getLoginPage(){
+        ModelAndView mv = new ModelAndView("login");
+        //mv.addObject("userlist", userRepo.findAll());
+        return mv;
+    }
 
     @RequestMapping("/")
     public ModelAndView doHome(){

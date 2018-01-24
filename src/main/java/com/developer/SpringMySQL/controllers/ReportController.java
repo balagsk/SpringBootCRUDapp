@@ -14,7 +14,7 @@ public class ReportController {
 
     @RequestMapping("/")
     public ModelAndView getReport(){
-     ModelAndView mv = new ModelAndView("/useraudit");
+     ModelAndView mv = new ModelAndView("/UserAudit");
      //mv.addObject()
         return mv;
     }
