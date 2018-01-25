@@ -391,7 +391,7 @@ body #nav-toggle.collapsed span {
 }
 #page-content {
     margin-left: 260px;
-    padding: 20px 30px;
+    padding: 1px 1px;
 }
 
 #page-content > .container {

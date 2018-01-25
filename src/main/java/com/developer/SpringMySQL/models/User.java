@@ -7,7 +7,7 @@ import org.springframework.data.repository.query.Param;
 import javax.persistence.*;
 
 /**
- * Created by Pukar on 6/25/2017.
+ * Created by Bala on 6/25/2017.
  */
 @Entity
 @Table(name = "USER_PROFILE")

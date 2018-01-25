@@ -32,9 +32,9 @@ public class MainController {
         return mv;
     }
 
-    @RequestMapping("/")
+    @RequestMapping("/home")
     public ModelAndView doHome(){
-        ModelAndView mv = new ModelAndView("index");
+        ModelAndView mv = new ModelAndView("home");
         //mv.addObject("userlist", userRepo.findAll());
         return mv;
     }

@@ -12,3 +12,12 @@ wow = new WOW({
     offset: 100
 });
 wow.init();
+
+
+/*Datatable*/
+$(document).ready(function() {
+    $('#datatable').dataTable();
+});
+$(document).ready(function() {
+    $('.dataTables_filter input').attr("placeholder", "Search...");
+});

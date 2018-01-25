@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
-<head th:replace="layout :: site-head">
+<head>
     <title> TekWeb-login</title>
+    <object th:include="layout :: site-head"></object>
 </head>
 
 <body th:fragment="site-body-login">
@@ -22,7 +23,7 @@
 
         <div class="col-md-3 center-margin">
 
-            <form method="post" action="/api/user/list">
+            <form method="post" action="/api/home">
                 <div class="content-box wow bounceInDown modal-content">
                     <h3 class="content-box-header content-box-header-alt bg-default">
                         <span class="icon-separator">

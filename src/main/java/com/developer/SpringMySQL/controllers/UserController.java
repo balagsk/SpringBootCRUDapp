@@ -23,7 +23,7 @@ public class UserController {
 
     @RequestMapping("/list")
     public ModelAndView doHome(){
-        ModelAndView mv = new ModelAndView("home");
+        ModelAndView mv = new ModelAndView("homepage");
         mv.addObject("userlist", userRepo.findAll());
         logger.info("User list rendered successfully");
         return mv;
@@ -50,7 +50,7 @@ public class UserController {
             @RequestParam(value="createddate",required = false) String createddate*/
     ){
         System.out.println("User Profile create operation begins here");
-        ModelAndView mv = new ModelAndView("home");
+        ModelAndView mv = new ModelAndView("homepage");
        // User user =  new User();
 
 /*        user.setFirstName(firstName);
