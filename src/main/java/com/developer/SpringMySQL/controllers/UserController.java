@@ -2,7 +2,7 @@ package com.developer.SpringMySQL.controllers;
 
 
 import com.developer.SpringMySQL.models.User;
-import com.developer.SpringMySQL.models.UserRepo;
+import com.developer.SpringMySQL.repo.UserRepo;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

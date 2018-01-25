@@ -1,5 +1,6 @@
-package com.developer.SpringMySQL.models;
+package com.developer.SpringMySQL.repo;
 
+import com.developer.SpringMySQL.models.User;
 import org.springframework.data.repository.CrudRepository;
 
 /**
